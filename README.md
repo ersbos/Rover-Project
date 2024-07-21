@@ -57,5 +57,5 @@ Camera Display Unit: Uses ESP32-CAM to capture images based on proximity data an
 
 ![Rover-Back](İmages/Rover_Front.jpg)
 ![Rover-Back](İmages/Rover_Side.jpg)
-
+![Rover-Back](İmages/Rover_Top.jpg)
 ![Rover-Back](İmages/Rover_Back.jpg)
