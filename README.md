@@ -41,7 +41,7 @@ HC-SR04 Ultrasonic Sensor
 The HC-SR04 ultrasonic sensor measures distance by sending an ultrasonic pulse and measuring the time it takes for the echo to return.
 
 Block Diagram
-[block-diagram](İmages/Block_Diagram.png)
+![block-diagram](İmages/Block_Diagram.png)
 
 Operating Mechanism
 The project consists of three main parts: Central Processing Unit, Sensor Unit, and Camera Display Unit.
@@ -50,4 +50,4 @@ Central Processing Unit (CPU): Uses ESP32s to receive and process data from the 
 Sensor Unit: Collects data from MPU6050 and HC-SR04 sensors and sends it via the CANBUS module.
 Camera Display Unit: Uses ESP32-CAM to capture images based on proximity data and displays them on an LCD.
 
-(İmages/Rover_Back.jpg)
+![Rover-Back](İmages/Rover_Back.jpg)
