@@ -49,3 +49,5 @@ The project consists of three main parts: Central Processing Unit, Sensor Unit, 
 Central Processing Unit (CPU): Uses ESP32s to receive and process data from the sensors.
 Sensor Unit: Collects data from MPU6050 and HC-SR04 sensors and sends it via the CANBUS module.
 Camera Display Unit: Uses ESP32-CAM to capture images based on proximity data and displays them on an LCD.
+
+(İmages/Rover_Back.jpg)
