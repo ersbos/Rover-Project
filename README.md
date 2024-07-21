@@ -41,7 +41,7 @@ HC-SR04 Ultrasonic Sensor
 The HC-SR04 ultrasonic sensor measures distance by sending an ultrasonic pulse and measuring the time it takes for the echo to return.
 
 Block Diagram
-[block-diagram](images/Block_Diagram.png)
+[block-diagram](İmages/Block_Diagram.png)
 
 Operating Mechanism
 The project consists of three main parts: Central Processing Unit, Sensor Unit, and Camera Display Unit.
