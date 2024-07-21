@@ -16,20 +16,24 @@ What is a Wheeled Rover?
 A wheeled rover is a type of robotic vehicle designed for mobility on land surfaces. It typically consists of a chassis equipped with wheels or tracks, motors for propulsion, and various sensors, actuators, and control systems. They can be controlled remotely or autonomously, depending on their design.
 
 What are ESP-32s and ESP32-CAM?
+
 ESP-32s
 The ESP-32s is a powerful Wi-Fi and Bluetooth-enabled microcontroller chip.
 Widely used in IoT and control projects.
 It can be programmed using Arduino IDE, ESP-IDF.
+![esp-32s](İmages/Nodemcu_ESP32.jpg)
 ESP32-CAM
 It is a specific variant of the ESP32 microcontroller with a built-in camera module.
 It can capture images and primitively recognize faces.
 Popular for projects involving video streaming.
 It can be programmed with the same process as ESP-32s.
+![esp-32cam](İmages/ESP32_Cam.jpg)
 Modules
 TJA1050 High Speed CAN Transceiver Module
 The TJA1050 is the interface between the Controller Area Network (CAN) protocol controller and the physical bus.
 Provides differential transmit capability to the bus and differential receive capability to the CAN controller.
 Lower electromagnetic emission and improved behavior in case of an unpowered node.
+![tja-1050](İmages/TJA_1050.jpeg)
 MPU6050 Gyroscope and Accelerometer
 The MPU6050 is a Micro-Electro-Mechanical System (MEMS) that consists of a 3-axis Accelerometer and 3-axis Gyroscope.
 Measures acceleration, velocity, orientation, displacement, and many other motion-related parameters.
@@ -39,8 +43,10 @@ A 16x2 LCD can display 16 characters per line, with 2 lines available.
 Displays characters in a 5x7 pixel matrix and is capable of showing 224 different characters and symbols.
 HC-SR04 Ultrasonic Sensor
 The HC-SR04 ultrasonic sensor measures distance by sending an ultrasonic pulse and measuring the time it takes for the echo to return.
+![HC-SR04](İmages/HC_SR04.jpg)
 
 Block Diagram
+![block-diagram](İmages/Block_Diagram.png)
 
 Operating Mechanism
 The project consists of three main parts: Central Processing Unit, Sensor Unit, and Camera Display Unit.
@@ -48,3 +54,8 @@ The project consists of three main parts: Central Processing Unit, Sensor Unit, 
 Central Processing Unit (CPU): Uses ESP32s to receive and process data from the sensors.
 Sensor Unit: Collects data from MPU6050 and HC-SR04 sensors and sends it via the CANBUS module.
 Camera Display Unit: Uses ESP32-CAM to capture images based on proximity data and displays them on an LCD.
+
+![Rover-Back](İmages/Rover_Front.jpg)
+![Rover-Back](İmages/Rover_Side.jpg)
+
+![Rover-Back](İmages/Rover_Back.jpg)
