@@ -2,7 +2,7 @@ Wheeled Rover with CANBUS Communication
 Project Main Subject: CANBUS
 Project Name: Wheeled Rover with Cam
 Abstract
-The proposed project aims to design and develop a wheeled Rover equipped with two ESP32s and an ESP32-Cam microcontroller, alongside MCP2515 CAN bus modules to enhance control and communication capabilities.
+The proposed project aims to design and develop a wheeled Rover equipped with two ESP32s and an ESP32-Cam microcontroller, alongside TJA1050 CAN bus modules to enhance control and communication capabilities.
 
 Keywords
 ESP32s, ESP32-CAM, Rover, Sensor, LCD Display
